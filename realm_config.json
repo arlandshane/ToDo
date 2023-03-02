@@ -4,5 +4,6 @@
     "name": "Application-0",
     "location": "IN-MB",
     "provider_region": "gcp-asia-south1",
-    "deployment_model": "LOCAL"
+    "deployment_model": "LOCAL",
+    "environment": "testing"
 }
