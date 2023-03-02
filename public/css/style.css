@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+    padding: 1rem;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+ul {
+    list-style: circle;
+}
+
+input {
+    border-radius: .5rem;
+    background: none;
+}
+
+input::placeholder {
+    padding-left: .5rem;
+}
+
+button {
+    border-radius: .5rem;
+    background: none;
+}
+
+button:hover {
+    background-color: burlywood;
+}
