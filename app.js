@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Connect to MongoDB using MongoClient
-const uri = process.env.mongodb + 'srv://arlandshane:TgMApF9Ykdbo37Rx@cluster0.afjehww.mongodb.net/?retryWrites=true&w=majority';
+const uri = process.env.mongodb + '://arlandshane:TgMApF9Ykdbo37Rx@cluster0.afjehww.mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(uri);
 
 // Connect to default database using Mongoose
